@@ -35,7 +35,7 @@ a,a:hover{color:#333;}
 	z-index: 99;
 	top:50%;
 	left: 50%;
-	perspective:800px;
+	-webkit-perspective:800px;
 	
 }
 .m-animate > ._3d-plant > .cube{

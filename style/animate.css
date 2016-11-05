@@ -155,7 +155,7 @@ a,a:hover{color:#333;}
 
 .m-animate > ._3d-plant > .cube{
 	
-	-webkit-animation:xuanzhuan 1s linear 12s  both,xuan-zhuan 4s linear 13s infinite;
+	-webkit-animation:xuan-zhuan 4s linear 13s infinite;
 }
 
 @-webkit-keyframes xuanzhuan{

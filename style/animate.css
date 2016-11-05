@@ -362,7 +362,8 @@ a,a:hover{color:#333;}
 	left: -150px;
 	width: 150px;
 	height: 2px;
-	background-image: -webkit-linear-gradient(to right,rgba(0,0,0,0),#000);
+	background-image:linear-gradient(to right,rgba(0,0,0,0),#000);
+	-webkit-background-image: -webkit-linear-gradient(to right,rgba(0,0,0,0),#000);
 	
 }
 .m-animate > .border > .u-border > .f-border{
@@ -422,7 +423,8 @@ a,a:hover{color:#333;}
 	border-radius: 50%;
 
 	-webkit-transform:translate(-50%,-50%) rotate(45deg);
-	background-image: -webkit-radial-gradient(circle 225px at 0 0,#f00,rgba(255,0,0,0))	;
+	background-image: radial-gradient(circle 225px at 0 0,#f00,rgba(255,0,0,0))	;
+	-webkit-background-image: -webkit-radial-gradient(circle 225px at 0 0,#f00,rgba(255,0,0,0))	;
 
 }
 
